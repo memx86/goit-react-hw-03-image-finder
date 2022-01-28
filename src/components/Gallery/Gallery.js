@@ -128,9 +128,4 @@ class Gallery extends Component {
   }
 }
 
-Gallery.propTypes = {
-  query: PropTypes.string.isRequired,
-  onImageClick: PropTypes.func.isRequired,
-};
-
 export default Gallery;
