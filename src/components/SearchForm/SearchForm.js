@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import s from "./SearchForm.module.css";
 import IconButton from "components/IconButton";
 
-class ContactForm extends Component {
+class SearchForm extends Component {
   static propTypes = {
     onFormSubmit: PropTypes.func.isRequired,
   };
@@ -48,4 +48,4 @@ class ContactForm extends Component {
     );
   }
 }
-export default ContactForm;
+export default SearchForm;
