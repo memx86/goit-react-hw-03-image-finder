@@ -17,7 +17,7 @@ class SearchForm extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const { onFormSubmit } = this.props;
-    const query = e.target.query.value;
+    const query = this.state.query;
     onFormSubmit(query);
     this.reset();
   };

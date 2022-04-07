@@ -3,3 +3,7 @@
   align-items: center;
   cursor: zoom-in;
 }
+.img {
+  height: 290px;
+  object-fit: cover;
+}
